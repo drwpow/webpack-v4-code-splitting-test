@@ -14,5 +14,3 @@ main.js:109 Uncaught (in promise) Error: Loading chunk 1 failed.
 (error: http://localhost:8080/page/1.js)
     at HTMLScriptElement.onScriptComplete (main.js:109)
 ```
-
-_Note: the patched webpack-dev-server version is due to a temporary bug (https://github.com/webpack/webpack-dev-server/pull/1243). This doesn’t affect the dynamic import issue stated._
