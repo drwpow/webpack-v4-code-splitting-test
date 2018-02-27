@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "webpack --mode production",
+    "build": "webpack --mode development",
     "start": "webpack-dev-server --content-base src --history-api-fallback --config webpack.config.js"
   },
   "devDependencies": {
